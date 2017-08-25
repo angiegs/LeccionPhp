@@ -45,6 +45,18 @@ print_r($ObjDemo);
     Nombre:<input type="text" name="nombre" value="<?php echo $ObjDemo->getNombre(); ?>" 
     autofocus required />
     <br>
+
+    <p>
+    Tipo:<input type="text" name="tipo" value="<?php echo $ObjDemo->getTipo(); ?>" 
+    autofocus required />
+
+    <br>
+
+    <p>
+    Fecha de Nacimiento:<input type="text" name="fecha" value="<?php echo $ObjDemo->getFecha(); ?>" 
+    autofocus required />
+    <br>
+    <br>
     <a href="index.php"> Cancelar </a>
     <input type="submit" value="Guardar" />
 
